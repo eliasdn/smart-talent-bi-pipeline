@@ -1,0 +1,337 @@
+[
+  {
+    "candidate_id": "cand-001",
+    "full_name": "Antoine Dupont",
+    "email": "antoine.dupont@email.com",
+    "phone": "+33 6 12 34 56 78",
+    "location": "Paris, France",
+    "current_title": "Senior Data Engineer",
+    "years_of_experience": 7.5,
+    "education_level": "Master of Science in Computer Science",
+    "raw_cv_text": "Experienced Senior Data Engineer with 7.5 years designing distributed data pipelines and cloud infrastructure. Specialized in Apache Spark, Airflow, and PostgreSQL. Architected real-time streaming architectures using Apache Kafka and AWS for high-throughput enterprise platforms. Led data warehouse modernization from on-premise legacy systems to modern cloud data lakes, reducing ingestion latency by 40% and cutting cloud infrastructure costs by 25%. Skilled in Python, SQL, Docker, Kubernetes, and automated CI/CD deployment pipelines.",
+    "linkedin_url": "https://linkedin.com/in/antoine-dupont-data",
+    "github_url": "https://github.com/adupont-data",
+    "skills": [
+      { "name": "Python", "category": "technical", "proficiency_level": "expert", "years_experience": 7.5, "is_primary": true },
+      { "name": "SQL", "category": "technical", "proficiency_level": "expert", "years_experience": 7.5, "is_primary": true },
+      { "name": "Apache Spark", "category": "technical", "proficiency_level": "advanced", "years_experience": 5.0, "is_primary": true },
+      { "name": "Apache Airflow", "category": "technical", "proficiency_level": "advanced", "years_experience": 4.5, "is_primary": false },
+      { "name": "PostgreSQL", "category": "technical", "proficiency_level": "advanced", "years_experience": 6.0, "is_primary": false },
+      { "name": "Docker", "category": "technical", "proficiency_level": "intermediate", "years_experience": 4.0, "is_primary": false },
+      { "name": "AWS", "category": "technical", "proficiency_level": "advanced", "years_experience": 4.0, "is_primary": false },
+      { "name": "Apache Kafka", "category": "technical", "proficiency_level": "intermediate", "years_experience": 3.0, "is_primary": false }
+    ],
+    "experiences": [
+      {
+        "company": "HexaData Technologies",
+        "role_title": "Senior Data Engineer",
+        "start_date": "2021-03-01",
+        "end_date": null,
+        "is_current": true,
+        "description": "Architected high-throughput data lakehouse ingestion pipeline handling 100M+ events daily using Spark, Kafka, and AWS.",
+        "technologies": "Python, Spark, Kafka, AWS, Docker, Airflow"
+      },
+      {
+        "company": "Retail Stream Solutions",
+        "role_title": "Data Engineer",
+        "start_date": "2018-09-01",
+        "end_date": "2021-02-28",
+        "is_current": false,
+        "description": "Maintained batch ETL workflows using Airflow and PostgreSQL. Optimized analytical SQL queries reducing dashboard refresh time.",
+        "technologies": "Python, SQL, PostgreSQL, Airflow, Docker"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand-002",
+    "full_name": "Camille Bernard",
+    "email": "camille.bernard@email.com",
+    "phone": "+33 6 23 45 67 89",
+    "location": "Lyon, France",
+    "current_title": "Junior Data Analyst",
+    "years_of_experience": 1.5,
+    "education_level": "Bachelor in Business Analytics",
+    "raw_cv_text": "Junior Data Analyst with 1.5 years experience in business reporting, SQL query optimization, and interactive dashboard creation. Proficient in Tableau, Microsoft Excel, and PowerBI. Conducted exploratory data analysis on sales funnels, churn patterns, and executive KPIs for marketing leadership. Strong communication skills and cross-functional collaboration experience. Basic proficiency in Python for data manipulation using Pandas.",
+    "linkedin_url": "https://linkedin.com/in/camille-bernard-analytics",
+    "github_url": "https://github.com/cbernard-bi",
+    "skills": [
+      { "name": "SQL", "category": "technical", "proficiency_level": "intermediate", "years_experience": 1.5, "is_primary": true },
+      { "name": "Tableau", "category": "technical", "proficiency_level": "intermediate", "years_experience": 1.5, "is_primary": true },
+      { "name": "Microsoft Excel", "category": "technical", "proficiency_level": "advanced", "years_experience": 2.5, "is_primary": true },
+      { "name": "PowerBI", "category": "technical", "proficiency_level": "intermediate", "years_experience": 1.0, "is_primary": false },
+      { "name": "Python", "category": "technical", "proficiency_level": "beginner", "years_experience": 1.0, "is_primary": false }
+    ],
+    "experiences": [
+      {
+        "company": "Rhone Logistics Group",
+        "role_title": "Data Analyst",
+        "start_date": "2023-01-15",
+        "end_date": null,
+        "is_current": true,
+        "description": "Constructed and deployed operational dashboards tracking supply chain delivery efficiency and fleet utilization.",
+        "technologies": "SQL, Tableau, Excel, PowerBI"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand-003",
+    "full_name": "Dr. Marc Lefevre",
+    "email": "marc.lefevre@email.com",
+    "phone": "+33 6 34 56 78 90",
+    "location": "Paris, France",
+    "current_title": "Lead Machine Learning Engineer",
+    "years_of_experience": 8.0,
+    "education_level": "PhD in Artificial Intelligence and Machine Learning",
+    "raw_cv_text": "Lead Machine Learning Engineer and AI Researcher with 8 years of industrial and research experience in deep learning, NLP, and model operationalization (MLOps). Specialized in PyTorch, Scikit-learn, Docker, and Kubernetes. Built end-to-end model training and inference microservices processing 5,000 requests/sec with sub-50ms latency. Championed automated continuous training pipelines with MLflow and Feast feature store. Author of 4 peer-reviewed publications on neural sequence modeling.",
+    "linkedin_url": "https://linkedin.com/in/marc-lefevre-ai",
+    "github_url": "https://github.com/mlefevre-research",
+    "skills": [
+      { "name": "Python", "category": "technical", "proficiency_level": "expert", "years_experience": 8.0, "is_primary": true },
+      { "name": "PyTorch", "category": "technical", "proficiency_level": "expert", "years_experience": 6.0, "is_primary": true },
+      { "name": "Scikit-Learn", "category": "technical", "proficiency_level": "expert", "years_experience": 7.0, "is_primary": true },
+      { "name": "MLOps", "category": "technical", "proficiency_level": "advanced", "years_experience": 4.0, "is_primary": true },
+      { "name": "Kubernetes", "category": "technical", "proficiency_level": "intermediate", "years_experience": 3.5, "is_primary": false },
+      { "name": "Docker", "category": "technical", "proficiency_level": "advanced", "years_experience": 5.0, "is_primary": false },
+      { "name": "MLflow", "category": "technical", "proficiency_level": "advanced", "years_experience": 4.0, "is_primary": false }
+    ],
+    "experiences": [
+      {
+        "company": "Cognitive Scale AI",
+        "role_title": "Lead Machine Learning Engineer",
+        "start_date": "2020-05-01",
+        "end_date": null,
+        "is_current": true,
+        "description": "Directed engineering team deploying production NLP and recommendation engines serving millions of global users.",
+        "technologies": "Python, PyTorch, Docker, Kubernetes, MLflow, AWS"
+      },
+      {
+        "company": "Inria Research Labs",
+        "role_title": "Research Scientist",
+        "start_date": "2017-09-01",
+        "end_date": "2020-04-30",
+        "is_current": false,
+        "description": "Conducted research on transfer learning and deep representation learning for NLP tasks.",
+        "technologies": "Python, PyTorch, Scikit-learn, Linux"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand-004",
+    "full_name": "Sophie Moreau",
+    "email": "sophie.moreau@email.com",
+    "phone": "+33 6 45 67 89 01",
+    "location": "Bordeaux, France",
+    "current_title": "Full Stack Software Engineer",
+    "years_of_experience": 4.0,
+    "education_level": "Master in Software Engineering",
+    "raw_cv_text": "Full Stack Software Engineer with 4 years building scalable web applications and enterprise SaaS platforms. Proficient in TypeScript, React, Node.js, Python, and PostgreSQL. Strong focus on software craftsmanship, automated unit and end-to-end testing, and clean RESTful API design. Experienced in agile workflows, system architecture refactoring, and database schema migrations with zero downtime.",
+    "linkedin_url": "https://linkedin.com/in/sophie-moreau-dev",
+    "github_url": "https://github.com/smoreau-dev",
+    "skills": [
+      { "name": "TypeScript", "category": "technical", "proficiency_level": "advanced", "years_experience": 4.0, "is_primary": true },
+      { "name": "React", "category": "technical", "proficiency_level": "advanced", "years_experience": 4.0, "is_primary": true },
+      { "name": "Node.js", "category": "technical", "proficiency_level": "advanced", "years_experience": 3.5, "is_primary": true },
+      { "name": "Python", "category": "technical", "proficiency_level": "intermediate", "years_experience": 3.0, "is_primary": false },
+      { "name": "PostgreSQL", "category": "technical", "proficiency_level": "intermediate", "years_experience": 3.5, "is_primary": false },
+      { "name": "REST APIs", "category": "technical", "proficiency_level": "advanced", "years_experience": 4.0, "is_primary": false }
+    ],
+    "experiences": [
+      {
+        "company": "Aquitaine Digital Studio",
+        "role_title": "Full Stack Developer",
+        "start_date": "2021-02-01",
+        "end_date": null,
+        "is_current": true,
+        "description": "Architected modern React web applications backed by modular Node.js and Python microservices.",
+        "technologies": "TypeScript, React, Node.js, Python, PostgreSQL"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand-005",
+    "full_name": "Lucas Petit",
+    "email": "lucas.petit@email.com",
+    "phone": "+33 6 56 78 90 12",
+    "location": "Nantes, France",
+    "current_title": "Cloud DevOps Engineer",
+    "years_of_experience": 5.0,
+    "education_level": "Bachelor in Computer Networks & Systems",
+    "raw_cv_text": "Cloud DevOps Engineer with 5 years designing, automating, and maintaining mission-critical cloud infrastructure. Expert in Terraform, Kubernetes, Docker, AWS, and GitLab CI/CD. Implemented GitOps workflows, reducing production deployment time from 2 hours to 8 minutes. Automated monitoring and incident alerting with Prometheus and Grafana. Solid scripting skills in Bash and Python.",
+    "linkedin_url": "https://linkedin.com/in/lucas-petit-cloud",
+    "github_url": "https://github.com/lpetit-ops",
+    "skills": [
+      { "name": "Terraform", "category": "technical", "proficiency_level": "advanced", "years_experience": 4.0, "is_primary": true },
+      { "name": "Kubernetes", "category": "technical", "proficiency_level": "advanced", "years_experience": 4.5, "is_primary": true },
+      { "name": "Docker", "category": "technical", "proficiency_level": "expert", "years_experience": 5.0, "is_primary": true },
+      { "name": "AWS", "category": "technical", "proficiency_level": "advanced", "years_experience": 4.0, "is_primary": false },
+      { "name": "CI/CD", "category": "technical", "proficiency_level": "advanced", "years_experience": 5.0, "is_primary": false },
+      { "name": "Python", "category": "technical", "proficiency_level": "intermediate", "years_experience": 3.0, "is_primary": false }
+    ],
+    "experiences": [
+      {
+        "company": "Atlantique Cloud Partners",
+        "role_title": "DevOps Engineer",
+        "start_date": "2020-06-01",
+        "end_date": null,
+        "is_current": true,
+        "description": "Managed infrastructure as code and automated Kubernetes cluster provisioning across AWS regions.",
+        "technologies": "Terraform, Kubernetes, AWS, Docker, GitLab CI"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand-006",
+    "full_name": "Elodie Roux",
+    "email": "elodie.roux@email.com",
+    "phone": "+33 6 67 89 01 23",
+    "location": "Paris, France",
+    "current_title": "Analytics Engineer",
+    "years_of_experience": 6.0,
+    "education_level": "Master in Information Systems Management",
+    "raw_cv_text": "Analytics Engineer with 6 years bridging the gap between raw data engineering and business reporting. Specialist in the modern data stack: dbt, Snowflake, SQL, and Looker. Designed normalized dimension models and dimensional Kimball marts serving finance, growth, and product analytics teams. Passionate about data testing, documentation, and data governance frameworks.",
+    "linkedin_url": "https://linkedin.com/in/elodie-roux-data",
+    "github_url": "https://github.com/eroux-models",
+    "skills": [
+      { "name": "dbt", "category": "technical", "proficiency_level": "expert", "years_experience": 4.5, "is_primary": true },
+      { "name": "Snowflake", "category": "technical", "proficiency_level": "advanced", "years_experience": 4.0, "is_primary": true },
+      { "name": "SQL", "category": "technical", "proficiency_level": "expert", "years_experience": 6.0, "is_primary": true },
+      { "name": "Python", "category": "technical", "proficiency_level": "intermediate", "years_experience": 4.0, "is_primary": false },
+      { "name": "Data Modeling", "category": "technical", "proficiency_level": "advanced", "years_experience": 5.0, "is_primary": false }
+    ],
+    "experiences": [
+      {
+        "company": "Fintech Horizon",
+        "role_title": "Analytics Engineer",
+        "start_date": "2021-01-01",
+        "end_date": null,
+        "is_current": true,
+        "description": "Built centralized dbt transformation repository in Snowflake powering company-wide executive metrics.",
+        "technologies": "dbt, Snowflake, SQL, Python, Looker"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand-007",
+    "full_name": "Thomas Garnier",
+    "email": "thomas.garnier@email.com",
+    "phone": "+33 6 78 90 12 34",
+    "location": "Toulouse, France",
+    "current_title": "Junior Backend Developer",
+    "years_of_experience": 1.0,
+    "education_level": "Intensive Software Engineering Bootcamp",
+    "raw_cv_text": "Motivated Junior Backend Developer with 1 year professional experience building high-performance REST APIs in Python using FastAPI and SQLAlchemy. Solid foundational understanding of relational database design with PostgreSQL, automated unit testing with pytest, and containerization with Docker. Eager learner with strong problem-solving skills and clean coding practices.",
+    "linkedin_url": "https://linkedin.com/in/thomas-garnier-dev",
+    "github_url": "https://github.com/tgarnier-code",
+    "skills": [
+      { "name": "Python", "category": "technical", "proficiency_level": "intermediate", "years_experience": 1.0, "is_primary": true },
+      { "name": "FastAPI", "category": "technical", "proficiency_level": "intermediate", "years_experience": 1.0, "is_primary": true },
+      { "name": "SQL", "category": "technical", "proficiency_level": "intermediate", "years_experience": 1.0, "is_primary": false },
+      { "name": "Git", "category": "technical", "proficiency_level": "intermediate", "years_experience": 1.5, "is_primary": false },
+      { "name": "Docker", "category": "technical", "proficiency_level": "beginner", "years_experience": 0.5, "is_primary": false }
+    ],
+    "experiences": [
+      {
+        "company": "AeroTech Solutions",
+        "role_title": "Junior Software Developer",
+        "start_date": "2023-06-01",
+        "end_date": null,
+        "is_current": true,
+        "description": "Developed internal tracking APIs with FastAPI and PostgreSQL, writing automated unit tests and documentation.",
+        "technologies": "Python, FastAPI, SQL, Docker, Git"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand-008",
+    "full_name": "Claire Faure",
+    "email": "claire.faure@email.com",
+    "phone": "+33 6 89 01 23 45",
+    "location": "Marseille, France",
+    "current_title": "Product Data Analyst",
+    "years_of_experience": 3.5,
+    "education_level": "Master in Quantitative Economics",
+    "raw_cv_text": "Product Data Analyst with 3.5 years applying statistical methods, hypothesis testing, and cohort analysis to optimize digital product experiences. Expert in SQL, Python, Amplitude, and A/B test experimentation frameworks. Partnered with product managers to define tracking taxonomies, evaluate experiment statistical significance, and drive 18% improvement in trial-to-paid conversion.",
+    "linkedin_url": "https://linkedin.com/in/claire-faure-product",
+    "github_url": "https://github.com/cfaure-analytics",
+    "skills": [
+      { "name": "SQL", "category": "technical", "proficiency_level": "advanced", "years_experience": 3.5, "is_primary": true },
+      { "name": "Python", "category": "technical", "proficiency_level": "intermediate", "years_experience": 3.0, "is_primary": true },
+      { "name": "A/B Testing", "category": "technical", "proficiency_level": "advanced", "years_experience": 3.0, "is_primary": true },
+      { "name": "Statistics", "category": "technical", "proficiency_level": "advanced", "years_experience": 3.5, "is_primary": false },
+      { "name": "Tableau", "category": "technical", "proficiency_level": "intermediate", "years_experience": 2.0, "is_primary": false }
+    ],
+    "experiences": [
+      {
+        "company": "Mediterra Commerce",
+        "role_title": "Product Analyst",
+        "start_date": "2021-09-01",
+        "end_date": null,
+        "is_current": true,
+        "description": "Led experimental design and measurement for checkout optimization and user onboarding flows.",
+        "technologies": "SQL, Python, Statistics, A/B Testing, Tableau"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand-009",
+    "full_name": "Julien Mercier",
+    "email": "julien.mercier@email.com",
+    "phone": "+33 6 90 12 34 56",
+    "location": "Lille, France",
+    "current_title": "Data Scientist",
+    "years_of_experience": 3.0,
+    "education_level": "Master in Applied Mathematics & Statistics",
+    "raw_cv_text": "Data Scientist with 3 years applying predictive modeling and statistical inference to solve business problems. Skilled in Python, Pandas, Scikit-learn, SQL, and exploratory data analysis. Built customer churn prediction models, credit risk assessment classifiers, and customer lifetime value algorithms that reduced quarterly churn rate by 12%. Experienced in productionizing models via RESTful API wrappers.",
+    "linkedin_url": "https://linkedin.com/in/julien-mercier-ds",
+    "github_url": "https://github.com/jmercier-science",
+    "skills": [
+      { "name": "Python", "category": "technical", "proficiency_level": "advanced", "years_experience": 3.0, "is_primary": true },
+      { "name": "Scikit-Learn", "category": "technical", "proficiency_level": "advanced", "years_experience": 3.0, "is_primary": true },
+      { "name": "Pandas", "category": "technical", "proficiency_level": "advanced", "years_experience": 3.0, "is_primary": true },
+      { "name": "SQL", "category": "technical", "proficiency_level": "intermediate", "years_experience": 2.5, "is_primary": false },
+      { "name": "Statistics", "category": "technical", "proficiency_level": "advanced", "years_experience": 3.0, "is_primary": false }
+    ],
+    "experiences": [
+      {
+        "company": "Nordic InsurTech",
+        "role_title": "Data Scientist",
+        "start_date": "2022-01-10",
+        "end_date": null,
+        "is_current": true,
+        "description": "Trained and validated supervised classification models for risk underwriting and churn prediction.",
+        "technologies": "Python, Pandas, Scikit-learn, SQL, Git"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand-010",
+    "full_name": "Nathalie Guerin",
+    "email": "nathalie.guerin@email.com",
+    "phone": "+33 6 01 23 45 67",
+    "location": "Rennes, France",
+    "current_title": "Cybersecurity Analyst",
+    "years_of_experience": 4.5,
+    "education_level": "Master in Information Security",
+    "raw_cv_text": "Cybersecurity Analyst with 4.5 years experience in threat monitoring, vulnerability management, and security compliance. Proficient in SIEM platform administration (Splunk, Elastic SIEM), network protocol analysis, and incident triage. Created Python automation scripts to automate log parsing and alert correlation, reducing mean time to respond (MTTR) by 35%. Knowledgeable in ISO 27001 and GDPR standards.",
+    "linkedin_url": "https://linkedin.com/in/nathalie-guerin-sec",
+    "github_url": "https://github.com/nguerin-security",
+    "skills": [
+      { "name": "SIEM", "category": "technical", "proficiency_level": "advanced", "years_experience": 4.5, "is_primary": true },
+      { "name": "Python", "category": "technical", "proficiency_level": "intermediate", "years_experience": 3.0, "is_primary": true },
+      { "name": "Network Security", "category": "technical", "proficiency_level": "advanced", "years_experience": 4.5, "is_primary": true },
+      { "name": "Linux", "category": "technical", "proficiency_level": "advanced", "years_experience": 4.0, "is_primary": false },
+      { "name": "ISO 27001", "category": "technical", "proficiency_level": "intermediate", "years_experience": 2.5, "is_primary": false }
+    ],
+    "experiences": [
+      {
+        "company": "Bretagne Cyber Defense",
+        "role_title": "Security Operations Analyst",
+        "start_date": "2020-10-01",
+        "end_date": null,
+        "is_current": true,
+        "description": "Monitored security event logs across corporate networks and automated incident response workflows.",
+        "technologies": "SIEM, Python, Linux, Bash, Wireshark"
+      }
+    ]
+  }
+]

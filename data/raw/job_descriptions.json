@@ -1,0 +1,95 @@
+[
+  {
+    "job_id": "job-001",
+    "job_code": "JOB-DE-001",
+    "title": "Senior Data Engineer",
+    "department": "Data Platform",
+    "location": "Paris, France (Hybrid)",
+    "employment_type": "Full-time",
+    "experience_min_years": 5.0,
+    "education_level_required": "Master of Science in Computer Science or related STEM field",
+    "salary_range_min": 65000.0,
+    "salary_range_max": 80000.0,
+    "currency": "EUR",
+    "status": "open",
+    "raw_description": "We are looking for an experienced Senior Data Engineer to design, scale, and maintain our enterprise data lakehouse platform. You will be responsible for orchestrating real-time streaming and batch pipelines using Apache Spark, Kafka, and Airflow on AWS cloud infrastructure. You will collaborate closely with data scientists, analytics engineers, and backend teams to ensure high data reliability, observability, and sub-minute ingestion latencies. Requirements include strong mastery of Python, SQL, distributed data architectures, and containerization.",
+    "skills": [
+      { "name": "Python", "category": "technical", "importance": "required", "weight": 1.0, "min_years": 4.0 },
+      { "name": "SQL", "category": "technical", "importance": "required", "weight": 1.0, "min_years": 4.0 },
+      { "name": "Apache Spark", "category": "technical", "importance": "required", "weight": 1.0, "min_years": 3.0 },
+      { "name": "Apache Airflow", "category": "technical", "importance": "required", "weight": 0.8, "min_years": 2.5 },
+      { "name": "Docker", "category": "technical", "importance": "required", "weight": 0.6, "min_years": 2.0 },
+      { "name": "AWS", "category": "technical", "importance": "preferred", "weight": 0.7, "min_years": 2.0 },
+      { "name": "Apache Kafka", "category": "technical", "importance": "preferred", "weight": 0.7, "min_years": 1.5 }
+    ]
+  },
+  {
+    "job_id": "job-002",
+    "job_code": "JOB-MLE-002",
+    "title": "Lead Machine Learning Engineer",
+    "department": "AI & Innovation",
+    "location": "Paris, France / Remote",
+    "employment_type": "Full-time",
+    "experience_min_years": 6.0,
+    "education_level_required": "PhD or Master in AI, Data Science, or Computer Science",
+    "salary_range_min": 75000.0,
+    "salary_range_max": 95000.0,
+    "currency": "EUR",
+    "status": "open",
+    "raw_description": "The AI & Innovation group is seeking a Lead Machine Learning Engineer to guide the architecture, development, and deployment of predictive modeling and NLP microservices. You will spearhead our MLOps strategy, implement automated model retraining pipelines with MLflow, and optimize real-time inference latency using PyTorch, Scikit-learn, and Kubernetes. The ideal candidate blends deep mathematical foundations with rigorous software engineering practices.",
+    "skills": [
+      { "name": "Python", "category": "technical", "importance": "required", "weight": 1.0, "min_years": 5.0 },
+      { "name": "PyTorch", "category": "technical", "importance": "required", "weight": 1.0, "min_years": 4.0 },
+      { "name": "Scikit-Learn", "category": "technical", "importance": "required", "weight": 0.9, "min_years": 4.0 },
+      { "name": "MLOps", "category": "technical", "importance": "required", "weight": 0.8, "min_years": 3.0 },
+      { "name": "Kubernetes", "category": "technical", "importance": "preferred", "weight": 0.7, "min_years": 2.0 },
+      { "name": "Docker", "category": "technical", "importance": "preferred", "weight": 0.6, "min_years": 3.0 },
+      { "name": "MLflow", "category": "technical", "importance": "preferred", "weight": 0.5, "min_years": 2.0 }
+    ]
+  },
+  {
+    "job_id": "job-003",
+    "job_code": "JOB-DA-003",
+    "title": "Data Analyst",
+    "department": "Business Intelligence",
+    "location": "Lyon, France",
+    "employment_type": "Full-time",
+    "experience_min_years": 2.0,
+    "education_level_required": "Bachelor or Master in Business Analytics, Economics, or Statistics",
+    "salary_range_min": 42000.0,
+    "salary_range_max": 52000.0,
+    "currency": "EUR",
+    "status": "open",
+    "raw_description": "We are hiring an analytical and communicative Data Analyst to empower our executive leadership and operational teams with actionable business insights. In this role, you will query dimensional data models, design intuitive executive dashboards in Tableau and PowerBI, and conduct exploratory analyses to understand business performance, customer churn, and marketing efficiency. Strong SQL skills and proficiency with spreadsheets are essential.",
+    "skills": [
+      { "name": "SQL", "category": "technical", "importance": "required", "weight": 1.0, "min_years": 2.0 },
+      { "name": "Tableau", "category": "technical", "importance": "required", "weight": 0.9, "min_years": 1.5 },
+      { "name": "Microsoft Excel", "category": "technical", "importance": "required", "weight": 0.8, "min_years": 2.0 },
+      { "name": "Python", "category": "technical", "importance": "preferred", "weight": 0.7, "min_years": 1.0 },
+      { "name": "PowerBI", "category": "technical", "importance": "preferred", "weight": 0.6, "min_years": 1.0 }
+    ]
+  },
+  {
+    "job_id": "job-004",
+    "job_code": "JOB-FS-004",
+    "title": "Full Stack Developer",
+    "department": "Engineering",
+    "location": "Bordeaux, France",
+    "employment_type": "Full-time",
+    "experience_min_years": 3.0,
+    "education_level_required": "Bachelor or Master in Computer Science or Software Engineering",
+    "salary_range_min": 50000.0,
+    "salary_range_max": 65000.0,
+    "currency": "EUR",
+    "status": "open",
+    "raw_description": "Our engineering group is looking for a versatile Full Stack Developer to build user-facing web applications and robust backend services. You will design responsive front-ends with TypeScript and React, develop scalable RESTful APIs with Python and Node.js, and maintain schema integrity in PostgreSQL databases. You should have a proven track record of writing unit-tested, maintainable code within continuous integration workflows.",
+    "skills": [
+      { "name": "TypeScript", "category": "technical", "importance": "required", "weight": 1.0, "min_years": 2.5 },
+      { "name": "React", "category": "technical", "importance": "required", "weight": 1.0, "min_years": 2.5 },
+      { "name": "Python", "category": "technical", "importance": "required", "weight": 0.8, "min_years": 2.0 },
+      { "name": "PostgreSQL", "category": "technical", "importance": "required", "weight": 0.8, "min_years": 2.0 },
+      { "name": "Node.js", "category": "technical", "importance": "preferred", "weight": 0.7, "min_years": 2.0 },
+      { "name": "REST APIs", "category": "technical", "importance": "preferred", "weight": 0.6, "min_years": 2.0 }
+    ]
+  }
+]
