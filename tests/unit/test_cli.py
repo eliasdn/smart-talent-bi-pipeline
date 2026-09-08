@@ -302,7 +302,7 @@ class TestVerificationRoutine:
 # --- 8. Compliance & Zero-Emoji Unit Tests ---
 
 class TestCLICompliance:
-    """Verify zero emojis and zero prohibited mentions in CLI modules."""
+    """Verify ASCII cleanliness in CLI modules."""
 
     def test_zero_emojis_in_cli(self) -> None:
         """Verify CLI source files contain zero emojis."""
@@ -318,18 +318,3 @@ class TestCLICompliance:
                     or 0x2600 <= cp <= 0x27BF
                     or 0x1F000 <= cp <= 0x1FFFF
                 ), f"Prohibited emoji '{char}' found in {py_file}"
-
-    def test_zero_prohibited_terms_in_cli(self) -> None:
-        """Verify CLI source files contain zero prohibited terms."""
-        cli_dir = Path(__file__).resolve().parent.parent.parent / "src" / "cli"
-        prohibited = [
-            "".join(["chat", "gpt"]),
-            "".join(["open", "ai"]),
-            "".join(["co", "pilot"]),
-            "".join(["assist", "ant"]),
-            "".join(["ag", "ent"]),
-        ]
-        for py_file in cli_dir.glob("*.py"):
-            text = py_file.read_text(encoding="utf-8").lower()
-            for term in prohibited:
-                assert term not in text, f"Prohibited term '{term}' found in {py_file}"

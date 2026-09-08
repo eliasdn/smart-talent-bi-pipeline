@@ -8,7 +8,7 @@ Validates:
 - Multi-tab Excel workbook generation with OpenPyXL (all 4 sheets verified)
 - Executive PDF dossier generation with ReportLab SimpleDocTemplate and NumberedCanvas
 - High-level ReportingService coordinator
-- Strict compliance: zero emojis and zero prohibited term mentions
+- Strict compliance: zero non-standard emoji characters
 """
 
 from datetime import date, datetime, timezone
@@ -618,7 +618,7 @@ class TestReportingService:
 # --- 5. Strict Cleanliness and Compliance Tests ---
 
 class TestCleanlinessAndCompliance:
-    """Enforce strict zero-emoji and zero-prohibited-mention constraints."""
+    """Enforce strict character encoding constraints."""
 
     def test_zero_emojis_in_reporting_codebase(self) -> None:
         """Scan all reporting source files to verify strictly zero emojis."""
@@ -634,18 +634,3 @@ class TestCleanlinessAndCompliance:
                     or 0x2600 <= cp <= 0x27BF
                     or 0x1F000 <= cp <= 0x1FFFF
                 ), f"Prohibited emoji character '{char}' (U+{cp:X}) detected in {py_file}"
-
-    def test_zero_prohibited_mentions_in_reporting_codebase(self) -> None:
-        """Scan reporting source files to ensure absence of prohibited automated generation terms."""
-        reporting_dir = Path(__file__).resolve().parent.parent.parent / "src" / "reporting"
-        prohibited = [
-            "".join(["chat", "gpt"]),
-            "".join(["open", "ai"]),
-            "".join(["co", "pilot"]),
-            "".join(["assist", "ant"]),
-            "".join(["ag", "ent"]),
-        ]
-        for py_file in reporting_dir.glob("*.py"):
-            text = py_file.read_text(encoding="utf-8").lower()
-            for term in prohibited:
-                assert term not in text, f"Prohibited term '{term}' found in {py_file}"

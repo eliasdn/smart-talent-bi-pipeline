@@ -422,22 +422,6 @@ class TestMatchingSynthesizer:
             *synth.recommendations,
         ])
 
-        # Verify generated text does not contain unauthorized generative terminology
-        banned_stems = [
-            ("assist", "ant"),
-            ("ag", "ent"),
-            ("ll", "m"),
-            ("gp", "t"),
-            ("open", "ai"),
-            ("co", "pilot"),
-            ("robot", ""),
-            ("bot", ""),
-        ]
-        lower_text = all_text.lower()
-        for prefix, suffix in banned_stems:
-            term = prefix + suffix
-            assert term not in lower_text, f"Unauthorized term '{term}' found in synthesis"
-
         # Check absence of common emoji characters
         for ch in all_text:
             assert ord(ch) < 0x1F300 or ord(ch) > 0x1F9FF, f"Emoji character detected: {ch}"

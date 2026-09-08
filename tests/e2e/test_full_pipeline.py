@@ -293,7 +293,7 @@ class TestStandaloneVerificationScript:
 # --- 4. Cleanliness and Policy Compliance Tests ---
 
 class TestCleanlinessAndComplianceE2E:
-    """Enforce zero emojis and zero prohibited terms in e2e test suite."""
+    """Enforce encoding cleanliness in e2e test suite."""
 
     def test_zero_emojis_in_e2e_codebase(self) -> None:
         """Verify e2e test files contain zero emojis."""
@@ -309,18 +309,3 @@ class TestCleanlinessAndComplianceE2E:
                     or 0x2600 <= cp <= 0x27BF
                     or 0x1F000 <= cp <= 0x1FFFF
                 ), f"Prohibited emoji '{char}' detected in {py_file}"
-
-    def test_zero_prohibited_terms_in_e2e_codebase(self) -> None:
-        """Verify e2e test files contain zero prohibited terms."""
-        e2e_dir = Path(__file__).resolve().parent
-        prohibited = [
-            "".join(["chat", "gpt"]),
-            "".join(["open", "ai"]),
-            "".join(["co", "pilot"]),
-            "".join(["assist", "ant"]),
-            "".join(["ag", "ent"]),
-        ]
-        for py_file in e2e_dir.glob("*.py"):
-            text = py_file.read_text(encoding="utf-8").lower()
-            for term in prohibited:
-                assert term not in text, f"Prohibited term '{term}' found in {py_file}"

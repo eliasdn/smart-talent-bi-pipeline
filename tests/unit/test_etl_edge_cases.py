@@ -1,6 +1,6 @@
-"""Adversarial stress and edge-case verification test suite for Milestone 1.
+"""Edge-case verification and error recovery test suite for ETL pipeline.
 
-Empirical verification harness testing:
+Verifies:
 1. Malformed JSON/CSV, missing fields, extreme string lengths, French non-ASCII accents, empty datasets.
 2. Foreign key violation attempts and CASCADE delete verification.
 3. Concurrent and rapid successive upserts (race conditions, idempotency, session leakage).
