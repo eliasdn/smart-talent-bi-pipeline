@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Testing and coverage artifacts
+.coverage
+htmlcov/
+.benchmarks/
+temp_reports/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment configurations
+.env
+
+# Agent orchestration metadata and dispatch instructions
+.agents/
+.system_generated/
+ORIGINAL_REQUEST.md
+PROJECT.md
+TEST_INFRA.md
+
+# Log files and temporary database artifacts
+*.log
+*.tmp
+temp_*.db
+corrupt.db
+uninit.db
+zero.db
+
+# Generated data pipeline deliverables
+data/output/

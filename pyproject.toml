@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smart-talent-bi-pipeline"
+version = "0.1.0"
+description = "Talent analytics and business intelligence pipeline with candidate matching and reporting."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Elias DANI", email = "79227843+eliasdn@users.noreply.github.com" }
+]
+dependencies = [
+    "pydantic>=2.10.0,<3.0.0",
+    "pydantic-settings>=2.7.0,<3.0.0",
+    "sqlalchemy>=2.0.30,<2.1.0",
+    "pandas>=2.2.0,<3.0.0",
+    "openpyxl>=3.1.2,<4.0.0",
+    "reportlab>=4.0.0",
+    "pypdf>=5.0.0",
+    "python-dotenv>=1.0.1",
+    "rich>=13.9.0",
+    "typer>=0.15.0",
+    "scikit-learn>=1.5.0",
+    "scipy>=1.14.0",
+    "streamlit>=1.35.0",
+    "email-validator>=2.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-mock>=3.14.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-v --strict-markers"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]

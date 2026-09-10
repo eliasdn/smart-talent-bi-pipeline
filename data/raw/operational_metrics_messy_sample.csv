@@ -1,0 +1,7 @@
+candidate_id,event_date,event_type,source_channel,time_spent_minutes,cost_eur,recruiter_notes
+cand-001,2026-03-01,screening,LinkedIn,25,18.75,Initial screening call with technical review
+cand-002,2026-03-02,screening,JobBoard,20,15.00,Profile review - junior background
+cand-dirty-001,2026-03-05,screening,Direct,30,22.50,Strong BI experience reported
+cand-dirty-002,INVALID_DATE_FORMAT,screening,UnknownChannel,-10,-5.00,Malformed operational record with negative values
+cand-999,2026-03-07,interview,LinkedIn,45,33.75,Orphan metric referencing uncreated candidate
+cand-dirty-004,2026-03-08,technical_test,Referral,60,45.00,NLP technical evaluation completed

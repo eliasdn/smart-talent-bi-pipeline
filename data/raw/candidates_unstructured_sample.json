@@ -1,0 +1,100 @@
+[
+  {
+    "candidate_id": "cand-dirty-001",
+    "full_name": "  Jean-Baptiste  Moreau  ",
+    "email": "jb.moreau@enterprise-corp.fr",
+    "phone": "+33 (0)6 11 22 33 44",
+    "location": "Marseille, France",
+    "current_title": "Lead BI Developer",
+    "years_of_experience": 8.0,
+    "education_level": "Master en Informatique Décisionnelle",
+    "raw_cv_text": "Consultant sénior en Business Intelligence avec 8 ans d'expérience sur l'écosystème Microsoft (Power BI, SSIS, SSAS, SQL Server). Modélisation en étoile, DAX avancé, optimisation de requêtes SQL volumineuses. Accompagnement de directions financières dans l'automatisation de reporting opérationnel.",
+    "linkedin_url": "https://linkedin.com/in/jb-moreau",
+    "github_url": "https://github.com/jbmoreau",
+    "skills": [
+      { "name": " Power BI ", "category": "technical", "proficiency_level": "expert", "years_experience": 7.0, "is_primary": true },
+      { "name": "SQL Server", "category": "technical", "proficiency_level": "expert", "years_experience": 8.0, "is_primary": true },
+      { "name": "DAX", "category": "technical", "proficiency_level": "advanced", "years_experience": 6.0, "is_primary": true },
+      { "name": "ETL", "category": "technical", "proficiency_level": "advanced", "years_experience": 8.0, "is_primary": false }
+    ],
+    "experiences": [
+      {
+        "company": "Sud Finance Conseil",
+        "role_title": "Senior BI Consultant",
+        "start_date": "2020-05-01",
+        "end_date": null,
+        "is_current": true,
+        "description": "Déploiement de tableaux de bord financiers sous Power BI et automatisation de flux ETL.",
+        "technologies": "Power BI, DAX, SQL Server"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand-dirty-002",
+    "full_name": "Corrupt MissingEmail",
+    "email": "invalid-email-address-format",
+    "phone": "0600000000",
+    "location": "Paris, France",
+    "current_title": "Data Analyst",
+    "years_of_experience": 2.0,
+    "education_level": "Licence",
+    "raw_cv_text": "Profil rejeté pour adresse email invalide (démonstration du système de mise en quarantaine automatique).",
+    "skills": [],
+    "experiences": []
+  },
+  {
+    "candidate_id": "cand-dirty-003",
+    "full_name": "Inverted Dates Profile",
+    "email": "inverted.dates@test.com",
+    "phone": "+33 6 99 88 77 66",
+    "location": "Nantes, France",
+    "current_title": "Data Engineer",
+    "years_of_experience": 4.0,
+    "education_level": "Master",
+    "raw_cv_text": "Profil rejeté pour date de fin antérieure à la date de début dans les expériences professionnelles.",
+    "skills": [
+      { "name": "Python", "proficiency_level": "intermediate", "years_experience": 3.0 }
+    ],
+    "experiences": [
+      {
+        "company": "Glitch Tech",
+        "role_title": "Engineer",
+        "start_date": "2023-01-01",
+        "end_date": "2021-01-01",
+        "is_current": false,
+        "description": "Erreur chronologique volontaire pour test de validation Pydantic."
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand-dirty-004",
+    "full_name": "Sophië N'Guyen-D'Estrée",
+    "email": "sophie.nguyen@test-domain.org",
+    "phone": "06 44 55 66 77",
+    "location": "Lyon, France",
+    "current_title": "Data Scientist & NLP Specialist",
+    "years_of_experience": 5.5,
+    "education_level": "Diplôme d'Ingénieur & Master Recherche",
+    "raw_cv_text": "Data Scientist expérimentée en traitement automatique du langage naturel (NLP / TAL) et analyse sémantique. Spécialisée en Python, Scikit-Learn, PyTorch et pipelines de classification de documents non structurés. Pratique rigoureuse des statistiques et de la modélisation prédictive.",
+    "linkedin_url": "https://linkedin.com/in/sophie-nguyen",
+    "github_url": "https://github.com/sophie-nguyen-nlp",
+    "skills": [
+      { "name": "Python", "category": "technical", "proficiency_level": "expert", "years_experience": 5.5, "is_primary": true },
+      { "name": "Scikit-Learn", "category": "technical", "proficiency_level": "expert", "years_experience": 4.5, "is_primary": true },
+      { "name": "PyTorch", "category": "technical", "proficiency_level": "advanced", "years_experience": 3.5, "is_primary": true },
+      { "name": "NLP", "category": "technical", "proficiency_level": "advanced", "years_experience": 4.0, "is_primary": true },
+      { "name": "SQL", "category": "technical", "proficiency_level": "intermediate", "years_experience": 5.0, "is_primary": false }
+    ],
+    "experiences": [
+      {
+        "company": "Rhône AI Labs",
+        "role_title": "Data Scientist NLP",
+        "start_date": "2021-09-01",
+        "end_date": null,
+        "is_current": true,
+        "description": "Développement de modèles TF-IDF et classification sémantique de corpus documentaires.",
+        "technologies": "Python, Scikit-Learn, PyTorch, Spacy"
+      }
+    ]
+  }
+]
